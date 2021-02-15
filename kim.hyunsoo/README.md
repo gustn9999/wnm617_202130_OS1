@@ -7,6 +7,10 @@
 - http://jonathanux.com
 - http://jonathanux.com/aau/wnm617/kim.hyunsoo
 
+### Reference
+
+- http://www.themezaa.com/html/pofo/home-portfolio-metro.html
+
 ### Git Notes
 
 - git status
