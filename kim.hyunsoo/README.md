@@ -4,8 +4,8 @@
 
 ### Important Links
 
-- https://jonathanux.com
-- https://jonathanux.com/aau/wnm617/kim.hyunsoo
+- http://jonathanux.com
+- http://jonathanux.com/aau/wnm617/kim.hyunsoo
 
 ### Git Notes
 
