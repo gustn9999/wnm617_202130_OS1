@@ -7,7 +7,7 @@
 - http://jonathanux.com
 - http://jonathanux.com/aau/wnm617/kim.hyunsoo
 - http://jonathanux.com/aau/wnm617/kim.hyunsoo/initializr
-- http://jonathanux.com/aau/wnm617/kim.hyunsoo/Midterm
+- http://jonathanux.com/aau/wnm617/kim.hyunsoo/
 
 ### Reference
 
