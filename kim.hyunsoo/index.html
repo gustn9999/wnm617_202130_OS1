@@ -20,9 +20,12 @@
    <!--SIGNI-IN SECTION -->
    <section data-role="page" id="signin-page">
       <div data-role="main" class="display-flex flex-vertical" style="background: var(--color-main-light);">
+         
          <div class="logo">
+
                <img src="images/logo.png" alt="">
          </div>
+        
          <div class="flex-stretch"></div>
          <div class="flex-none">
             <div class="welcome">
@@ -46,8 +49,8 @@
                    </label>
                </div>
             </form>
-            <div class="register">
-               <p>Don't have an account? <a href="#register-page">Track Now!</a></p>
+          <div class="register">
+                  <p>Don't have an account? <a href="#register-page">Create a new!</a></p>
             </div>
 
 
@@ -103,9 +106,21 @@
 
 
 
-   <!-- MAP SECTION -->
+  <!-- MAP SECTION -->
    <section data-role="page" id="recent-page">
-      <div data-role="main"></div>
+      <div data-role="main">
+         <div class="map-icon-test icon" style="position: absolute; left: 20vh; top: 45vh; font-size: 2em" data-activate="#recent-test-modal">
+               <img src="images/pin.png" alt="" style="height:2em;">
+            </div>
+
+            <div class="modal" id="recent-test-modal">
+               <div class="modal-popup small" data-deactivate="#recent-test-modal">
+                  <div class="modal-body">
+                     <div class="profile-username">This is one record</div>
+                  </div>
+               </div>
+            </div>
+      </div>
       <footer data-role="footer" data-template="#footer-template"></footer>
    </section>
 

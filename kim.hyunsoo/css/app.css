@@ -75,7 +75,6 @@ a:hover {
 
 
 
-
 /* PAGE ELEMENTS */
 [data-role="page"].ui-page-active {
   display:flex;
@@ -225,6 +224,100 @@ a:hover {
   text-align: left;
 }
 
+/* MODAL */
+.modal,
+.modal-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal {
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.modal.active {
+  opacity: 1;
+}
+
+.modal-back {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal.active .modal-back {
+  pointer-events: initial;
+}
+
+.modal-popup {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, calc(-50% + 5vh));
+  transition: all 0.3s;
+}
+
+.modal.active .modal-popup {
+  transform: translate(-50%, -50%);
+  pointer-events: initial;
+}
+
+.modal-drawer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.modal-drawer.left,
+.modal-drawer.right {
+  height: 100%;
+  width: 70vw;
+}
+
+.modal-drawer.left { left: 0; transform: translateX(-100%); }
+.modal-drawer.right { right: 0; transform: translateX(100%); }
+
+.modal-drawer.top,
+.modal-drawer.bottom {
+  height: 30vh;
+  width: 100%;
+}
+
+.modal-drawer.top { top: 0; transform: translateY(-100%); }
+.modal-drawer.bottom { bottom: 0; transform: translateY(100%); }
+
+.modal.active .modal-drawer {
+  transform: translate(0);
+  pointer-events: initial;
+}
+
+.modal-head,
+.modal-foot {
+  background-color: var(--color-neutral-light);
+  padding: 0.5em 1em;
+}
+
+.modal-body {
+  background-color: var(--color-white);
+  flex: 1 1 100%;
+  padding: 0.5em 1em;
+  position: relative;
+  overflow: hidden;
+}
+
+.modal-popup :first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.modal-popup :last-child {
+  border-radius: 0 0 5px 5px;
+}
 
 
 /* FORM ELEMENTS */
@@ -291,6 +384,10 @@ a:hover {
   background-position: center;
   background-color: var(--color-main-light-light);
   background-size: cover;
+}
+
+.map-icon-text img{
+  height: 2em;
 }
 
 /* LIST */
