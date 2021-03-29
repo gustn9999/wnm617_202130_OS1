@@ -107,6 +107,8 @@ a:hover {
   box-shadow: 2px 2px 30px rgb(0 0 0 / 10%);
   position: relative;
   overflow: hidden;
+      padding-bottom: 71px;
+    padding-top: 14px;
 }
 
 .ui-header .ui-title {
