@@ -68,13 +68,16 @@ a:hover {
 .display-inline-flex { display:inline-flex; }
 .display-inline-block { display:inline-block; }
 
-.flex-stretch { flex:1 1 auto; }
+.flex-stretch { flex:0.7 1 auto; }
 .flex-none { flex:none; margin-bottom:100px;}
 
 .flex-align-center { align-items:center; }
 .flex-justify-center { justify-content:center; }
 .flex-vertical { flex-direction:column; }
 
+.memo {
+  padding: 10px;
+}
 
 
 
@@ -173,7 +176,7 @@ a:hover {
 .logo {
   margin-left: auto;
   margin-right: auto;
-  padding: 100px;
+  padding-top: 50px;
 
 }
 
@@ -234,6 +237,15 @@ a:hover {
     background-color: var(--color-main-dark);
     padding: 52px;
     width: 40px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+.roundbac2{
+    background-color: var(--color-main-dark);
+    padding: 52px;
+    width: 60px;
     border-radius: 20px;
     margin: 20px;
 
@@ -327,7 +339,7 @@ a:hover {
 }
 
 .modal-popup :first-child {
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .modal-popup :last-child {
