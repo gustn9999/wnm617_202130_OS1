@@ -26,7 +26,7 @@
   {
 
    id: '{{index(1)}}',
-    user_id:'{{integer(1,10)}}',
+    user_id:'{{integer(1,9)}}',
     name: '{{company()}}',
     type: '{{random("dog","cat","horse")}}',
     breed: function(tags) {
@@ -52,7 +52,7 @@ var chosen_index = tags.integer(0,chosen_type.length-1);
   }
   ]
 
-// User Template
+// Users Data
 [
   '{{repeat(10)}}',
   {
