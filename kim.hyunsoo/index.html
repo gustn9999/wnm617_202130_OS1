@@ -32,8 +32,13 @@
 
 
    <section data-role="page" id="signin-page">
-      <div data-role="main" class="display-flex flex-vertical">
-         <div class="flex-stretch"></div>
+      <div data-role="main" class="display-flex flex-vertical bg-light">
+         <div class="flex-stretch">
+            
+         </div>
+         <div class="logo">
+            <img class="logo" src="images/logo.png">
+         </div>
          <div class="flex-none">
             <form class="form" id="signin-form" data-ajax="false" style="padding:1em">
                <div class="form-control">
@@ -56,7 +61,7 @@
    </section>
 
    <section data-role="page" id="signup-page">
-      <div data-role="main" class="display-flex flex-vertical">
+      <div data-role="main" class="display-flex flex-vertical bg-light">
          <div class="flex-stretch"></div>
          <div class="flex-none">
             <form class="form" id="signup-form" data-ajax="false" style="padding:1em">
@@ -133,7 +138,7 @@
             <li><a href="#animal-add-page">&plus;</a></li>
          </ul>
       </header>
-      <div data-role="main"><div class="overscroll">
+      <div data-role="main" class="bg-light"><div class="overscroll">
          <div class="animallist"></div>
       </div></div>
       <footer data-role="footer" data-template="#footer-template"></footer>
@@ -173,7 +178,7 @@
 
    <!-- USER DATA SECTION -->
 
-   <section data-role="page" id="user-profile-page">
+   <section data-role="page" id="user-profile-page" class="bg-light">
       <div data-role="main">
          <div class="profile"></div>
 
@@ -241,7 +246,7 @@
    <!--  ANIMAL DATA SECTION -->
 
    <section data-role="page" id="animal-profile-page">
-      <div data-role="main" class="display-flex flex-vertical">
+      <div data-role="main" class="display-flex flex-vertical bg-light">
          <div class="animal-top">
             <div class="floater top left header no-touch" style="background-image: linear-gradient(180deg, #ffffff96, #ffffff00);">
                <ul>
@@ -269,7 +274,8 @@
       </div>
    </section>
 
-   <section data-role="page" id="animal-edit-page">
+
+   <section data-role="page" id="animal-edit-page" class="bg-light">
       <header data-role="header">
          <h1>Edit Animal</h1>
          <ul>
@@ -285,7 +291,7 @@
       </div>
    </section>
 
-   <section data-role="page" id="animal-add-page">
+   <section data-role="page" id="animal-add-page" class="bg-light">
       <header data-role="header">
          <h1>Add Animal</h1>
          <ul>
@@ -307,7 +313,7 @@
 
 
   <!-- CHOOSE LOCATION PAGES -->
-   <section data-role="page" id="choose-animal-page">
+   <section data-role="page" id="choose-animal-page" class="bg-light">
       <header data-role="header">
          <h1>Choose Animal</h1>
          <ul>
