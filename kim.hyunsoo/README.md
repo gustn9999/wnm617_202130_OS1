@@ -4,6 +4,8 @@
 
 - http://jonathanux.com/aau/wnm617/kim.hyunsoo/#signin-page
 
+- Use 'user1' and password 'pass' to see well-refined example flows.
+
 ### Important Links
 
 - http://jonathanux.com
