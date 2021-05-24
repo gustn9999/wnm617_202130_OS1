@@ -1,7 +1,7 @@
 
 const makeAnimalList = templater(o=>`
 <div class="animallist-item display-flex animal-jump" data-id="${o.id}">
-   <div class="flex-none animallist-image"><img src="${o.img}" alt=""></div>
+   <div class="flex-none animallist-image" style="padding:10px;"><img src="${o.img}" alt=""></div>
    <div class="animallist-description flex-stretch">
       <div class="animallist-name">${o.name}</div>
       <div class="animallist-info">${o.type}, ${o.breed}</div>
@@ -15,7 +15,7 @@ const makeUserProfile = o => `
 <div class="user-profile-image">
    <img src="${o.img}" alt="" class="box-shadow">
 
-   <div class="floater bottom right">
+   <div class="floater bottom right bg-white mg-18px box-shadow-icon1">
       <a href="#user-upload-page" class="icon"><img src="images/pencil.png" alt=""></a>
    </div>
 </div>

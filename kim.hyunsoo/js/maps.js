@@ -93,10 +93,10 @@ let mapStyles = [
     {
         "stylers": [
             {
-                "hue": "#2c3e50"
+                "hue": "#212321"
             },
             {
-                "saturation": 250
+                "saturation": -20
             }
         ]
     },
@@ -105,7 +105,7 @@ let mapStyles = [
         "elementType": "geometry",
         "stylers": [
             {
-                "lightness": 50
+                "lightness": 20
             },
             {
                 "visibility": "simplified"
